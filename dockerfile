@@ -8,6 +8,6 @@ RUN unzip bonativo.zip
 RUN rm -rf bonativo.zip &&\
     cp -rf bonativo/* . &&\
     rm -rf bonativo &&\
-    touch hiii
+    touch hiiii
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
